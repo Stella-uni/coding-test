@@ -1,0 +1,41 @@
+// Left bar
+.left-bar {
+  width: 25%;
+  height: 100%;
+  border: 1px solid red;
+
+  &__list {
+    ul {
+      padding-left: 20px;
+      display: none;
+    }
+
+    li {
+      position: relative;
+      padding-left: 10px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0.3em;
+        left: 0;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: red;
+      }
+
+      &:has(> .is-active) {
+        &:before {
+          background-color: blue;
+        }
+      }
+    }
+
+    .is-active {
+      + ul {
+        display: block;
+      }
+    }
+  }
+}
