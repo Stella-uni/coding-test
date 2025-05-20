@@ -1,0 +1,37 @@
+[
+  {
+    "label": "회사 본부",
+    "children": [
+      {
+        "label": "기획팀",
+        "children": [
+          {
+            "label": "전략파트",
+            "children": [
+              {
+                "label": "신사업 분석",
+                "children": [
+                  {
+                    "label": "시장 조사"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "개발팀"
+      }
+    ]
+  },
+  {
+    "label": "제품관리 본부"
+  },
+  {
+    "label": "영업팀"
+  },
+  {
+    "label": "인사팀"
+  }
+]
