@@ -1,0 +1,8 @@
+// base
+@use './base/reset';
+@use './components/left-bar';
+@use './components/toggle';
+
+.root {
+  height: 100%;
+}
